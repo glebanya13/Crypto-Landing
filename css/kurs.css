@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.kurs_1 {
+  box-shadow: inset 0px -100px 500px rgba(255, 161, 11, 0.342);
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.card1_img {
+  width: 23%;
+  min-width: 300px;
+}
+.card1_text {
+  width: 60%;
+}
+.card1_text h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 43px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 30px;
+}
+.card1_text p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0em;
+
+  color: rgba(255, 255, 255, 1);
+}
+.card1_text button {
+  background: rgba(255, 163, 11, 1);
+  border: none;
+  padding: 18px 30px 18px 30px;
+  border-radius: 35px;
+  gap: 10px;
+  font-family: "Amiko", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+@media (max-width: 1450px) and (min-width: 800px) {
+  .card1_text h1 {
+    font-size: 30px;
+  }
+  .card1_text p {
+    font-size: 20px;
+  }
+  .card1_text button {
+    font-size: 23px;
+  }
+}
+@media (max-width: 800px) {
+  .card1_text {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .card1_text h1 {
+    font-size: 25px;
+  }
+  .card1_text p {
+    font-size: 15px;
+  }
+  .card1_text button {
+    font-size: 15px;
+  }
+}
+
+.kurs_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 550px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.kurs_2_text {
+  width: 55%;
+}
+.kurs_2 img {
+  width: 35%;
+  min-width: 300px;
+}
+.kurs_2_text h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 163, 11, 1);
+}
+.kurs_2_text p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+@media (max-width: 991px) {
+  .kurs_2_text {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .kurs_2_text h1 {
+    font-size: 25px;
+  }
+  .kurs_2_text p {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .card1_text button {
+    font-size: 15px;
+  }
+}
+
+.kurs_3 {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.kurs_3 h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 163, 11, 1);
+}
+.kurs_3 .kurs3_cards {
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.kurs_3 .kurs3_cards p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.kurs3_card {
+  max-width: 400px;
+  margin-top: 20px;
+}
+@media (max-width: 700px) {
+  .kurs_3 h1 {
+    font-size: 25px;
+  }
+  .kurs_3 .kurs3_cards p {
+    font-size: 15px;
+  }
+  .kurs_3 .kurs3_cards img {
+    width: 70px;
+  }
+}
+
+.kurs4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(255, 163, 11, 1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.kurs4 h1 {
+  font-family: "Amiko", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: black;
+}
+.kurs4 p {
+  font-family: "Amiko", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+.kurs4 button {
+  padding: 18px 40px 18px 40px;
+  border-radius: 35px;
+  gap: 10px;
+  color: rgba(255, 163, 11, 1);
+  font-family: "Amiko", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: black;
+  border: none;
+}
+.kurs4_img_div {
+    width: 400px;
+    position: relative;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.kurs4_img_div1{
+    width: 97px;
+    position: absolute;
+    top: 0px;
+    right: 190px;
+}
+.kurs4_img_div2{
+    width: 12px;
+    position: absolute;
+    top:70px;
+    left:0px;
+}
+.kurs4_img_div3{
+    position: absolute;
+    top: 50px;
+    left: -70px;
+    width: 138px;
+}
+.kurs4_img_div4{
+    width: 116px;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+}
+.kurs4_img_div10{
+    width: 400px;
+    position: relative;
+    position: absolute;
+    right: 0px;
+}
+.kurs4_img_div11{
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    width: 138px;
+
+}
+.kurs4_img_div12{
+    position: absolute;
+    right: 90px;
+    top: 10px;
+    width: 96px;
+    
+}
+.kurs4_img_div13{
+    position: absolute;
+    right: -40px;
+    top: 40px;
+    width: 116px;
+ 
+}
+
+@media (max-width: 700px) {
+  .kurs4 h1 {
+    font-size: 25px;
+  }
+  .kurs4 p {
+    font-size: 15px;
+  }
+  .kurs4 button {
+    font-size: 15px;
+    margin-top: 30px;
+  }
+}
+
+
+/* @media(max-width: 770px) {
+  .kurs4_img_div2 {
+    width: 100px;
+  }
+  .kurs4_img_div3 {
+    width: 100px;
+  }
+  .kurs4_img_div4 {
+    width: 100px;
+  }
+  .kurs4_img_div11 {
+    width: 100px;
+    margin-top: 100px;
+  }
+  .kurs4_img_div12 {
+    width: 100px;
+  }
+  .kurs4_img_div13 {
+    margin-top: 100px;
+  }
+} */
+
+@media(max-width:991px) {
+  .kurs4_img_div1 {
+    /* left: 200px; */
+    left: 0px;
+    width: 10vw;
+  }
+  .kurs4_img_div2 {
+    width: 10vw;
+    left: -20px;
+  }
+  .kurs4_img_div3 {
+    width: 10vw;
+    right: -20px;
+  }
+  .kurs4_img_div4 {
+    width: 10vw;
+    right: 0px;
+    right: 20px;
+  }
+  .kurs4_img_div11 {
+    width: 10vw;
+    right: -20px;
+    margin-top: 20vw;
+  }
+  .kurs4_img_div12 {
+    width: 10vw;
+    right: -20px;
+  }
+  .kurs4_img_div13 {
+    width: 10vw;
+    margin-top: 100px;
+    right: 0;
+  }
+}
+
+@media(max-width: 400px) {
+  .kurs4_img_div2 {
+    top: 200px  ;
+    border: 1px solid;
+  }
+  .kurs4_img_div11 {
+    left: 70px;
+  }
+  .kurs4_img_div12 {
+    margin-top: 60px;
+  }
+}

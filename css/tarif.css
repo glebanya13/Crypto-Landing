@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar1{
+    background: linear-gradient(180deg, #000 67.92%, #9B7D44 100%);
+}
+
+.tarif{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    font-family: 'Amiko', sans-serif;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.card22{
+    margin-top: 30px;
+    width: 45%;
+    background: #FFA30B66;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+min-width: 300px;
+margin-top: 20px;
+border-radius: 30px;
+padding: 30px 0px ;
+text-align: center;
+color: white;
+}
+.card22 p{
+    min-height: 70px;
+}
+.card22 button{
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    border-radius: 30px;
+    border: none;
+    background: #FFA30B;
+
+}
+.button11 button{
+    margin: auto;
+    border-radius: 30px;
+    border: none;
+    padding: 2px 30px;
+    background: #FFA30B;
+margin-left: 3%;
+font-size: 30px;
+}
+.button11{
+    max-width: 1200px;
+    margin: auto;
+}
+.card22 img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card22 p{
+    padding: 10px;
+}
+@media(max-width:800px){
+    .card22{
+        width: 90%;
+    }
+    .button11{
+        display: flex;justify-content: center;align-items: center;
+
+    }
+    .button11 button{margin: auto;}
+}
+
+
+
+
+.title_tarif{
+    font-family: 'Amiko', sans-serif;
+font-size: 38px;
+font-weight: 400;
+/* line-height: 25px; */
+width: 90%;
+padding-top: 30px;
+color: white;
+display: flex;align-items: center;
+margin: auto;
+}
+.title_tarif button{
+    border: 3px solid #FFFFFF;
+    color: white;
+    min-width: 100px;
+    background-color: #ffffff00;
+    padding: 5px 20px;
+    font-size: 23px;
+    width: 280px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+@media(max-width:991px){
+.title_tarif{
+    font-size: 15px;
+}
+.title_tarif button{
+    width: 100px;
+    margin-left: 30px;
+    padding: 0px 3px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+}

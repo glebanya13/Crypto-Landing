@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.swiper {
+    width: 89vw;
+    margin: auto;
+}
+.carusel_div{
+    padding-top: 2.083vw;
+    padding-bottom: 3.125vw;
+    width: 100%;
+    background: linear-gradient(180deg, #000000 70.77%, #6B4F31 100%);
+}
+.carusel_four_card{
+    width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.083vw;
+    padding-top: 1.302vw;
+}
+.carusel_four_card_div{
+    background: #5A5A5A80;
+    border-radius: 3.646vw;
+    padding-top: 1.042vw;
+    padding-bottom: 1.042vw;
+    width: 39vw;
+    padding-left: 3.125vw;
+    padding-right: 3.125vw;
+    min-height: 14.063vw;
+}
+.carusel_four_card_div_text{
+    display: flex;
+    align-items: center;
+    font-family: 'Amiko', sans-serif;
+    gap: 1.042vw;
+    margin-left: 1.042vw;
+}
+.carusel_four_card_div_text h1{
+    color: #FFA30B;
+    font-size: 1.875vw;
+    font-weight: 400;
+      font-family: "Amiko", sans-serif;
+    line-height: 2.501vw;
+    font-family: 'Amiko', sans-serif;
+}
+.carusel_four_card_div_text p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Amiko', sans-serif;
+    font-size: 1.667vw;
+    line-height: 2.167vw;
+}
+.carusel_four_card_div_desc{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.667vw;
+    line-height: 2.167vw;
+    margin-top: 0.521vw;
+    font-family: 'Amiko', sans-serif;
+}
+.swiper-button-prev img,.swiper-button-next img{
+    width: 100%;
+}
+.swiper-button-prev,.swiper-button-next{
+    /* top: 18.900vw !important; */
+    width: 3.698vw !important;
+    height: 3.698vw !important;
+}
+.swiper-button-prev:after{
+    content: none !important;
+}
+.swiper-button-next:after{
+    content: none !important;
+}
+#mySwiper1{
+    display: none !important;
+}
+.carousel1{
+    display: none;
+}
+@media(max-width:991px){
+    .mySwiper{
+        display: none !important;
+    }
+    .carousel1{
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .carousel1 .carusel_four_card_div_desc{
+font-size: 15px;
+line-height:15px;
+    }
+    .carusel_div  .carusel_four_card_div{
+        max-width: 600px !important;
+        width: 45% !important;
+        min-width: 300px;
+        margin-bottom: 20px;
+        height: auto;
+        padding: 20px;
+    }
+    .carusel_four_card_div_text h1{
+        font-size: 23px;
+    }
+}

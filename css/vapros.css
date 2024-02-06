@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black !important;
+}
+
+/* navbar  */
+.navbar-expand-lg{
+    background: #F39D12;
+}
+.navbar-expand-lg .navbar-brand img{
+height: 55px;
+}
+.navbar-expand-lg .navbar-brand{
+    font-family: 'Comfortaa', sans-serif;
+font-weight: 700;
+font-size: 1.5vw;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.navbar-expand-lg .nav-link{
+font-family: 'Amiko', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+
+}
+.navbar-expand-lg .nav-link i{
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    color: black;
+}
+.navbar-expand-lg .navbar_btn{
+    padding: 8px 16px 8px 16px;
+    border-radius: 35px;
+background-color: black;
+color: #F39D12;
+}
+.link2{
+    display: none !important;
+}
+
+.navbar2{
+    background: #FFA30B78;
+
+}
+.navbar2 ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    list-style: none;
+}
+.navbar2 ul a{
+    text-decoration: none;
+    font-family: 'Amiko', sans-serif;
+color: white;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.button-worring{
+
+    border: none;
+    font-family: 'Inter', sans-serif;
+    padding: .7vw 3vw .7vw 3vw;
+    border-radius: 35px;
+background-color: #F39D12;  
+font-size:23px;
+font-weight: 500;
+}
+
+.vopros h2{
+ padding-top: 30px;
+    font-family: 'Amiko', sans-serif;
+font-size: 48px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #F39D12;
+}
+.vopros_p{
+  width: 90%;
+margin: auto;  
+background: #5A5A5A80;
+padding: 30px;
+cursor: pointer;
+transition: 2s;
+border-radius: 35px;
+margin-bottom: 20px;
+}
+.vopros_p .acor{
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+.vopros_p h3{
+    display: flex;
+color: #F39D12;
+
+align-items: center;
+
+}
+.accorimg{
+    border: 1px dashed #F39D12;
+    border-radius: 50%;
+    width: 25px;
+    font-size: 20px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 10px;
+    /* font-weight: 100; */
+}
+
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black !important;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+footer ul{
+list-style: none;
+}
+.footer_page {
+    width: 25%;
+    min-width: 300px;
+}
+.footer_page li{
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: -1px;
+text-align: left;
+color: white;
+}
+.footer_page li a{
+text-decoration: none;
+color: white;
+font-family: 'Inter', sans-serif;
+}
+.footer_page2 li{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: white;
+}
+  .footer_link{
+    width: 25%;
+    min-width: 300px;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: -1px;
+text-align: right;
+color: white;
+  }
+
+  .footer_link a{
+    color: white !important;
+  }
+  .footer_link1{
+    display: none;
+  }
+
+
+
+
+
+  

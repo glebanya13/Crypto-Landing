@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.herlar{
+    background: linear-gradient(180deg, #000 67.92%, #9B7D44 100%);
+    padding-bottom: 50px;
+}
+.hew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 30px;
+    margin: auto;
+    color: #FFF;
+    font-family: 'Amiko', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.divla{
+    width: 90%;
+    border-radius: 100px;
+    background: rgba(255, 163, 11, 0.42);
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+.diver div{
+    display: block;
+    width: 70%;
+}
+.diver{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    width: 90%;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.diver h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Amiko', sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.diver img{
+    width: 5px;
+    font-size: 10px;
+}
+.diver h2{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Amiko', sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.diver h4{
+    color: #FFF;
+    text-align: left;
+    font-family: 'Amiko', sans-serif;
+    font-size: 23px ;
+    display: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.diver h3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Amiko', sans-serif;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.oxirgi_div button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 35px;
+    background: #FFA30B;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+    border: none;
+    margin-top: 80px;
+}
+.oxir_button button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 35px;
+    background: #FFA30B;
+    border: none;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+}
+.oxirgi_div div{
+    display: block;
+}
+@media(max-width:991px){
+    .oxir_button button{
+        font-size: 30px;
+        padding: 5px 20px;
+    }
+
+    .hew{
+        font-size: 30px;
+    }
+    .divla{
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 40px;
+    }
+.diver{
+    gap: 0px;
+}
+    .diver div{
+        width: 100%;
+    }
+    .diver h2{
+        display: none;
+    }
+    .diver h1{
+        font-size: 20px;
+    }
+    .diver img{
+        display: none;
+    }
+    .diver h4{
+        display: block;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .diver h3{
+        font-size: 12px;
+    }
+}
+.oxirgi_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.oxirgi_div h2{
+    color: #FFF;
+     font-weight: 400;
+    text-align: center;
+    font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+}
+.oxirgi_div img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.oxirgi_divv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    gap: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.oxirgi_text h2{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Amiko', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.oxirgi_text img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

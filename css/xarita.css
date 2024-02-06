@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    position: relative;
+}
+.btn1{
+    max-width: 592px;
+    width: 70%;
+    height: 82px;
+    margin-top: 30px;
+    border-radius: 100px;
+    border: 1px solid #FFA30B;
+    background-color: #FFA30B;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.left_img{
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    z-index: -1;
+    width: 20%;
+}
+@media(max-width:900px){
+    .btn1{
+height: 60px;
+    }
+    .btn1{
+border: none;
+    }
+    .murojat{
+        border: none !important;
+        margin-top: 30px;
+    }
+}
+@media(max-width:600px){
+    .btn1{
+height: 40px;
+font-size: 23px;
+    }
+}
+
+.right_img{
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    z-index: -1;
+    width: 20%;
+}
+iframe{
+    max-width: 1496px;
+    width: 95%;
+    height: 810px;
+    border-radius: 100px;
+    margin-top: 32px;
+}
+p{
+    color: #FFFFFF;
+    font-size: 32px;    
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.murojat{
+    max-width: 1265px;
+    width: 95%;
+    /* height: 226px; */
+    border: 5px solid #ffa10bAf;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:850px){
+    p{
+        font-size: 15px;
+    }
+}
+@media(max-width:700px){
+    iframe{
+        height: 400px;
+    }
+}

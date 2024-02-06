@@ -1,0 +1,117 @@
+       /* footer */
+       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+       @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&display=swap');
+*{
+   padding: 0px;
+   margin: 0px;
+}
+body{
+   background-color: black !important;
+}
+footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   flex-wrap: wrap;
+   width: 90%;
+   margin: auto;
+   padding-bottom: 20px;
+}
+footer ul{
+list-style: none;
+}
+.footer_page {
+   width: 25%;
+   min-width: 300px;
+}
+.footer_page li{
+font-family: 'Amiko', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: -1px;
+text-align: left;
+color: white;
+}
+.footer_page li a{
+text-decoration: none;
+color: white;
+font-family: 'Amiko', sans-serif;
+}
+.footer_page2 li{
+   font-family: 'Amiko', sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 42px;
+   letter-spacing: -1px;
+   text-align: center;
+   color: white;
+}
+ .footer_link{
+   width: 25%;
+   min-width: 300px;
+   font-family: 'Amiko', sans-serif;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: -1px;
+text-align: right;
+color: white;
+ }
+
+ .footer_link a{
+   color: white !important;
+   text-decoration: none;
+ }
+ .footer_link1{
+   display: none;
+ }
+ @media(max-width:976px){
+   .footer_link1{
+       display: block;
+   }
+   .footer_link2{
+       display: none;
+     }
+     .footer_page2{
+      margin: auto;
+     }
+ } 
+ @media(max-width:668px){
+  footer{
+    width: 100%;
+  }
+   .footer_link1{
+       display: none;
+   }
+   .footer_link2{
+       display: block;
+     }
+     .footer_link{
+text-align: left;
+width: 90%;
+     }
+     .footer_page li{
+       font-size: 15px;
+      line-height: 20px;
+     }
+     .footer_page{width: 90%;}
+     .footer_page2{width: 90%;}
+     .footer_page2 li{
+       font-size: 15px;
+      line-height: 20px;
+       text-align: left;
+       width: 100%;
+       padding: 0px;
+       margin: 0px;
+     }
+     .footer_link li{
+font-size: 15px;
+line-height: 20px;
+     }
+     .footer_page2{
+      margin-left: 0px;
+     }
+ }

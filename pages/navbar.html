@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoMaster Academy</title>
+  <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../image/Crypto.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../css/navbar.css">
+</head>
+
+<body>
+  <div class="navbar_clone">
+    <div class="logo_clone"><img class="img_clone" src="../image/Vector.png" alt="image"> CryptoMaster Academy</div>
+    <ul class="contact_clone">
+      <li><i class='bx bxs-phone'></i>+7 (495) 185-58-52</li>
+      <li><i class='bx bx-envelope'></i> cryptomasteracadem@gmail.com</li>
+    </ul>
+    <a href="./kurs.html" style="color: black !important; ">
+      <button class="button_clone">записаться на курс</button>
+    </a>
+  </div>
+
+  <div class="navbar2">
+    <ul>
+      <li><a href="../index.html">о нас</a></li>
+      <li><a href="./platforma.html">платформа</a></li>
+
+      <li><a href="./kurs.html">курсы</a></li>
+
+      <li><a href="./carousel.html">отзывы</a></li>
+
+      <li><a href="../index.html#contact">соцсети</a></li>
+      <li><a href="./xarita.html">контакты</a></li>
+
+    </ul>
+
+  </div>
+  <script>
+    function data1() {
+      var a = document.querySelector('#page_route').value
+      window.location = a
+    }
+  </script>
+  <select class="select" onchange="data1()" name="" id="page_route">
+    <option value="/index.html"><a href="../index.html">о нас</a></option>
+    <option value="/pages/platforma.html"><a href="./platforma.html">платформа</a></option>
+    <option value="/pages/kurs.html"><a href="./kurs.html">курсы</a></option>
+
+
+    <option value="/pages/carousel.html"><a href="./carousel.html">отзывы</a></option>
+
+    <option value="/index.html#contact"><a href="../index.html#contact">соцсети</a></option>
+    <option value="/pages/xarita.html"><a href="./xarita.html">контакты</a></option>
+
+  </select>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="//code.jivo.ru/widget/Wmv2irdD2e" async></script>
+</body>
+
+</html>
